@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,10 +17,11 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar1">
             <div class="navbar-container">
-                <a href="#" class="navbar-logo">Rizzi</a>
+                <a href="index.html" class="navbar-logo">Rizzi</a>
 
+                <!-- Hamburger Menu (Mobile) -->
                 <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
                 <label for="navbar-toggle" class="navbar-toggle-label">
                     <span></span>
@@ -26,69 +29,74 @@
                     <span></span>
                 </label>
 
+                <!-- Nav Links -->
                 <ul class="navbar-menu">
                     <li><a href="index.html" class="navbar-link">Home</a></li>
                     <li><a href="#" class="navbar-link">About</a></li>
-                    <li><a href="Project.html" class="navbar-link">Projects</a></li>
-                    <li><a href="Contact.html" class="navbar-link">Contact Me</a></li>
+                    <li><a href="projects.html" class="navbar-link">Projects</a></li>
+                    <li><a href="contact.html" class="navbar-link">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <div class="slider-container">
-            <div class="slide">
-                <img src="assets\image.png" alt="Nature">
-                <div class="slide-content">
-                    <h2>Beautiful Nature</h2>
-                    <p>Explore the beauty of Nature.</p>
-                    <a href="#" class="btn">Explore</a>
+            <div class="slider">
+                <div class="slide">
+                    <img src="assets/image.png" alt="Nature">
+                    <div class="slide-content">
+                        <h2>Beautiful Nature</h2>
+                        <p>Explore the wonders of the natural world and its breathtaking landscapes.</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/image copy.png" alt="City">
+                    <div class="slide-content">
+                        <h2>Urban Landscapes</h2>
+                        <p>Discover the beauty of modern architecture and city life.</p>
+                        <a href="#" class="btn">Discover</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Beach">
+                    <div class="slide-content">
+                        <h2>Tropical Paradise</h2>
+                        <p>Relax and unwind with stunning beach views and crystal clear waters.</p>
+                        <a href="#" class="btn">Relax</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Mountains">
+                    <div class="slide-content">
+                        <h2>Mountain Adventures</h2>
+                        <p>Experience the thrill of high altitudes and breathtaking views.</p>
+                        <a href="#" class="btn">Adventure</a>
+                    </div>
                 </div>
             </div>
-            <div class="slide">
-                <img src="assets\image copy.png" alt="Beach">
-                <div class="slide-conte\nt">
-                    <h2>Beautiful Beach</h2>
-                    <p>Explore the beauty of Cox's Bazar.</p>
-                    <a href="#" class="btn">Explore</a>
-                </div>
+
+            <div class="slider-controls">
+                <button class="control-btn prev-btn">❮</button>
+                <button class="control-btn next-btn">❯</button>
+            </div>
+
+            <div class="slider-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
             </div>
         </div>
-        <div class="slide">
-            <div class="slide-content">
-                <img src="assets\image copy 3.png" alt="Highway">
-                <h2>Beautiful Highway</h2>
-                <p>Enjoy the beauty of the Highway.</p>
-                <a href="#" class="btn">Explore</a>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="slide-content">
-                <img src="assets\image copy 2.png" alt="Forest">
-                <h2>Beautiful Forest</h2>
-                <p>Explore the beauty of the Forest.</p>
-                <a href="#" class="btn">Explore</a>
-            </div>
-        </div>
-        <div class="slider-controls">
-            <button class="control-btn prev-btn">&lt;</button>
-            <button class="control-btn next-btn">&gt;</button>
-        </div>
-        <div class="slider-dots">
-            <div class="dot active"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </div>
-        </div>
+
         <div class="container">
             <h3>Contents in Webpages</h3>
-            <div class="row m-5">
+            <div class="row mt-5">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 4.png" class="card-img-top" alt="neptune" height="200px">
+                        <img src="assets/image.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Planets in the Solar System</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -97,9 +105,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 5.png" class="card-img-top" alt="king" height="200px">
+                        <img src="assets/image copy.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">The Sun</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -108,22 +116,24 @@
                 </div>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 6.png" class="card-img-top" alt="goofy" height="200px">
+                        <img src="assets/image copy 2.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cartooned Solar System</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+
+
             </div>
-            <div class="row m-5">
+            <div class="row mt-5">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 4.png" class="card-img-top" alt="neptune" height="200px">
+                        <img src="assets/image.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Planets in the Solar System</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -132,9 +142,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 5.png" class="card-img-top" alt="king" height="200px">
+                        <img src="assets/image copy.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">The Sun</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -143,15 +153,17 @@
                 </div>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets\image copy 6.png" class="card-img-top" alt="goofy" height="200px">
+                        <img src="assets/image copy 2.png" class="card-img-top" alt="..." height="200px">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Cartooned Solar System</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card’s content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </main>
